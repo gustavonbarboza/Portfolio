@@ -43,8 +43,8 @@
   }
 
   #projetos p {
-    margin-top: 10px;
-    font-size: 18px;
+    margin-top: auto;
+    font-size: 15px;
   }
 
   .card {
@@ -73,7 +73,7 @@
   }
 
   footer p {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .menu {
