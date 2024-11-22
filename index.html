@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Barboza - Meus Projetos</title>
+
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+
+</head>
+  <body>
+
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#projetos" class="menu-link"><span>1.</span><p>Projetos</p></a></li>
+                <li><a href="https://wa.me/5561995125695" class="menu-link"><span>2.</span><p>Fale comigo</p></a></li>
+                <li><a href="#apresentacao" class="menu-button">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+          <section id="apresentacao">
+              <h1>Olá, meu nome é</h1>
+              <h2>Gustavo Barboza</h2>
+              <h3>Meus Projetos e Criações</h3>
+              <p>Sou um desenvolvedor Full Stack em início de carreira, apaixonado por transformar ideias<br>em soluções digitais. Tenho experiência com tecnologias como HTML, CSS, JavaScript e<br>Node.js, além de um olhar criativo adquirido em design gráfico e edição de vídeos.</p>
+              <a href="https://www.canva.com/design/DAEsEzYjrFw/D3ocO08z3Knq52NY90J6BQ/view?utm_content=DAEsEzYjrFw&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="curriculo">Veja meu currículo</a>
+          </section>
+
+
+          <section id="projetos">
+            <h2>Meus projetos</h2>
+            <p>Aqui está um pouco dos projetos que eu já desenvolvi.</p>
+          </section>
+
+
+          <!-- Modal para imagem expandida -->
+          <div id="image-modal" class="modal">
+            <span class="close-btn">&times;</span>
+            <img id="modal-image" class="modal-content" alt="Imagem expandida">
+          </div>
+
+          <section id="cards">
+              <div class="cards-container">
+                  <article class="card">
+                    <div><img class="projeto-img" src="./assets/projeto-linktree.png" alt="linktree"></div>
+                      <h3>Linktree</h3>
+                      <p>Este projeto é uma versão personalizada do DevLinks, um agregador de links para usar como cartão de visitas online, desenvolvido com tecnologias WEB e promovido pela Rocketseat.</p>
+                      <div class="card-links">
+                          <a href="https://github.com/gustavonbarboza/Projeto-Linktree"><img src="./assets/github-dark.svg" alt="github"></a>
+                          <a href="https://gustavonbarboza.github.io/Projeto-Linktree/"><img src="./assets/globe.svg" alt="github"></a>
+                        </div>
+                  </article>
+
+                  <article class="card">
+                    <div><img class="projeto-img" src="./assets/projeto-ecoleta.png" alt="ecoleta"></div>
+                      <h3>Ecoleta</h3>
+                      <p>Esse projeto desenvolvido no NLW da Rocketseat, focado em criar uma plataforma de coleta de resíduos. Utilize HTML, CSS e JavaScript para o Front-end, Node.js para o Back-end e SQL para o gerenciamento de dados. Foi uma ótima experiência para aplicar e integrar diferentes tecnologias.</p>
+                      <div class="card-links">
+                          <a href="https://github.com/gustavonbarboza/Ecoleta"><img src="./assets/github-dark.svg" alt="github"></a>
+                          <a href="https://gustavonbarboza.github.io/Ecoleta/"><img src="./assets/globe.svg" alt="github"></a>
+                        </div>
+                  </article>
+
+              </div>
+          </section>
+
+
+    </main>
+
+    <footer>
+          <div class="social-icons">
+              <a href="https://www.linkedin.com/in/gustavonbarboza"><img src="./assets/linkedin.svg" alt="linkedin"></a>
+              <a href="https://www.instagram.com/gustavobarboza._/"><img src="./assets/instagram.svg" alt="instagram"></a>
+              <a href="https://github.com/gustavonbarboza"><img src="./assets/github.svg" alt="github"></a>
+          </div>
+          <p>Este projeto foi desenhado no <strong>Figma</strong> e desenvolvido no <strong>Visual StudioCode</strong> por Gustavo Barboza.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

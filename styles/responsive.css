@@ -1,0 +1,50 @@
+/* MOBILE */
+@media (max-width: 768px) {
+
+  header {
+    display: none;
+  }
+
+  #apresentacao {
+    text-align: left;
+    margin-left: auto;
+    margin-top: auto;
+    text-align: center;
+  }
+
+  #apresentacao h1 {
+    font-size: 20px;
+  }
+  
+  #apresentacao h2 {
+    font-size: 56px;
+  }
+  
+  #apresentacao h3 {
+    font-size: 46px;
+  }
+  
+  #apresentacao p {
+    font-size: 14px;
+  }
+
+  #projetos {
+    margin-top: 100px;
+  }
+
+  #projetos p {
+    font-size: 20px;
+  }
+
+  .cards-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .menu {
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+}
+

@@ -1,0 +1,293 @@
+/* HOME */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  color: #d3d3d3;
+  background-color: #0A192F;
+}
+
+main {
+  padding: 2rem;
+}
+
+/* APRESENTAÇAO */
+#apresentacao {
+  margin-top: 150px;
+  margin-left: 110px;
+  text-align: left;
+  padding: 3rem 0;
+}
+
+#apresentacao h1 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+  font-size: 24px;
+  color: #5AE0C4;
+}
+
+#apresentacao h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: #CCD6F6;
+}
+
+#apresentacao h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #8892B0;
+}
+
+#apresentacao p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 22px;
+  color: #8892B0;
+}
+
+.curriculo {
+  display: inline-block;
+  margin-top: 59px;
+  padding: 1.0rem 4.5rem;
+
+  border: 2px solid #5AE0C4;
+
+  font-family: "Source Code Pro", monospace;
+  color: #5AE0C4;
+
+  text-decoration: none;
+  border-radius: 15px;
+  transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out; /* efeito */
+}
+
+.curriculo:hover {
+  background-color: #5AE0C4;
+  color: #0A192F;
+}
+
+/* CARDS */
+.card {
+  background-color: #CCD6F6;
+  height: 600px;
+  width: 400px; /* largura fixa */
+  padding: 1.5rem;
+  border-radius: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap; /* permite que os itens quebrem linha */
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #0A192F;
+}
+
+.card p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #0A192F;
+}
+
+.card-links {
+  display: flex;
+  gap: 3px; /* espaçamento entre os ícones */
+  position: absolute;
+  bottom: 2px; /* distância da base do card */
+}
+
+.card-links img {
+  margin: 3px;
+  transition: transform 0.3s ease;
+}
+
+.card-links img:hover {
+  transform: scale(1.2);
+  filter: grayscale(0);
+}
+
+.projeto-img {
+  border-radius: 10px;
+  max-width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projeto-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0.5rem 0;
+}
+
+footer p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #8892B0;
+  margin-bottom: 20px;
+}
+
+.social-icons a img{
+  margin: 0 20px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.1);
+  filter: grayscale(0);
+}
+
+/* MENU */
+header {
+  background-color: none;
+  padding: 1rem 2rem;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+.menu li {
+  display: inline-flex; /* permite que span e p fiquem na mesma linha */
+  align-items: center; /* Alinha os itens verticalmente */
+  margin-right: 30px;
+}
+
+.menu li a {
+  display: flex; /* Coloca os itens do link lado a lado */
+  align-items: center;
+  gap: 0px; /* espaço entre o numero e o texto */
+  text-decoration: none;
+}
+
+.menu li span {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 600;
+  color: #5AE0C4;
+  font-size: 17px;
+}
+
+.menu li p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #CCD6F6;
+  font-size: 17px;
+  margin: 0;
+}
+
+.menu-link{
+  all: unset;
+  cursor: pointer;
+}
+
+.menu-button {
+  font-family: "Source Code Pro", monospace;
+  color: #5AE0C4;
+  font-size: 17px;
+
+  border: 2px solid #5AE0C4;
+  border-radius: 10px;
+  padding: 0.5rem 2.5rem;
+
+  text-decoration: none;
+  transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out; /* efeito */
+}
+
+.menu-button:hover {
+  background-color: #5AE0C4;
+  color: #0A192F;
+}
+
+/* PROJETOS */
+#projetos {
+  display: flex;
+  flex-direction: column; /* Organiza os elementos verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente (se necessário) */
+  text-align: center; /* Centraliza o texto */
+  margin: 0;
+  padding: 20px;
+  margin-top: 300px;
+}
+
+#projetos h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #CCD6F6;
+  align-items: center;
+}
+
+#projetos p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #8892B0;
+}
+
+/* MODAL */
+.modal {
+  display: none; /* Oculto por padrão */
+  position: fixed; /* Fica fixo na tela */
+  z-index: 1000; /* Aparece acima de outros elementos */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro com transparência */
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  max-width: 80%; /* Define a largura máxima como 80% da tela */
+  max-height: 80%; /* Define a altura máxima como 80% da tela */
+  width: auto; /* Permite que a imagem seja redimensionada proporcionalmente */
+  height: auto; /* Permite que a imagem seja redimensionada proporcionalmente */
+  border-radius: 10px; /* Opcional: arredonda os cantos */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+  transition: transform 0.3s ease; /* Transição suave ao expandir */
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #5AE0C4;
+}
+
