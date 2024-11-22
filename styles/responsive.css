@@ -8,7 +8,7 @@
   #apresentacao {
     text-align: left;
     margin-left: auto;
-    margin-top: auto;
+    margin-top: 90px;
     text-align: center;
   }
 
@@ -17,28 +17,63 @@
   }
   
   #apresentacao h2 {
-    font-size: 56px;
+    font-size: 35px;
   }
   
   #apresentacao h3 {
-    font-size: 46px;
+    margin-top: 30px;
+    font-size: 20px;
   }
   
   #apresentacao p {
-    font-size: 14px;
+    margin-top: 5px;
+    font-size: 13px;
+  }
+
+  #curriculo {
+    padding: 0.8rem 2.5rem;
   }
 
   #projetos {
-    margin-top: 100px;
+    margin-top: 200px;
+  }
+
+  #projetos h2 {
+    font-size: 30px;
   }
 
   #projetos p {
-    font-size: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .card {
+    padding: 1rem;
+    height: 500px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 14px;
   }
 
   .cards-container {
     flex-direction: row;
     justify-content: center;
+  }
+
+  .social-icons a img{
+    width: 30px;        /* Faz a imagem preencher o container */
+    height: 30px;      /* Define a altura fixa */
+    object-fit: cover;  /* A imagem será redimensionada para cobrir completamente o container */
+    margin: 0 10px;
+  }
+
+  footer p {
+    font-size: 16px;
   }
 
   .menu {
